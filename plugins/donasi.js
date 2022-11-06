@@ -14,7 +14,7 @@ const catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "currencyCode": "IDR",
 "bodyText": wm,
 "footerText": wm,
-"priceAmount1000": "30000",
+"priceAmount1000": "100000",
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
