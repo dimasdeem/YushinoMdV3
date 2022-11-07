@@ -54,7 +54,7 @@ global.nomorwa = '6285156581890'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Created By hackdeem'
+global.author = 'Created By ᴹᴿ᭄ HαckͥDeͣeͫm ×፝֟͜×'
 global.namebot = 'Hⱥck𝓓eeᴍ-Mdོ'
 global.wm = '© 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 ᴹᴿ᭄ HαckͥDeͣeͫm ×፝֟͜×'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
@@ -70,7 +70,7 @@ global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.nameown1= 'ᴹᴿ᭄ HαckͥDeͣeͫm ×፝֟͜×'
-global.nameown2 = '_'
+global.nameown2 = 'ᴹᴿ᭄ HαckͥDeͣeͫm ×፝֟͜×'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
 global.lynk = 'https://chat.whatsapp.com/'
