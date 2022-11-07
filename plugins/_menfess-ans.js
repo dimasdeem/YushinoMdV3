@@ -11,8 +11,8 @@ export async function before(m) {
 		let imgr = fla.getRandom()
 		let txt = `Hᴀɪ ᴋᴀᴋ @${mf.dari.split('@')[0]}, ᴋᴀᴍᴜ ᴍᴇɴᴇʀɪᴍᴀʜ ʙᴀʟᴇsᴀɴ ɴɪʜ.Pesan yang kamu kirim sebelumnya:\n${mf.pesan}\n\nPesan balasannya:\n${m.text}\n`.trim();
 		let sblm = `Pᴇsᴀɴ Aɴᴅᴀ Sᴇʙᴇʟᴜᴍɴʏᴀ ➛ ${mf.pesan}\nPᴇsᴀɴ Bᴀʟᴀsᴀɴɴʏᴀ ➨ ${m.text}`
-		await this.send3ButtonDoc(mf.dari, txt, sblm, 'Balas', '.balasmenfess', 'Owner', '.owner', 'Credit', '.credit', fakes, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/_b4c00t4an_s3l3b',
+		await this.send2ButtonDoc(mf.dari, txt, sblm, 'Balas', '.balasmenfess', 'Owner', '.owner', fakes, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://instagram.com/',
     mediaType: 2, 
     description: sgc,
     title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
