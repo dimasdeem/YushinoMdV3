@@ -73,15 +73,15 @@ global.nameown1= 'ᴹᴿ᭄ HαckͥDeͣeͫm ×፝֟͜×'
 global.nameown2 = '_'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
-global.lynk = '_'
+global.lynk = 'https://chat.whatsapp.com/'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = '_' //Instagram
+global.sig = 'https://instagram.com' //Instagram
 global.sgh = 'https://github.com/dimasdeem' //github
-global.sgc = 'Hⱥck𝓓eeᴍ-Mdོ' //group whatsapp
+global.sgc = 'https://chat.whatsapp.com/' //group whatsapp
 global.sdc = '-' //discord
-global.snh = '_' //channel YouTube 
+global.snh = 'https://youtube.com' //channel YouTube 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.pdana = '_' //no dana
