@@ -79,18 +79,18 @@ global.lynk = '_'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.sig = '_' //Instagram
 global.sgh = 'https://github.com/dimasdeem' //github
-global.sgc = '_' //group whatsapp
+global.sgc = 'Hⱥck𝓓eeᴍ-Mdོ' //group whatsapp
 global.sdc = '-' //discord
 global.snh = '_' //channel YouTube 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '_'
-global.povo = '-'
-global.pgopay = '_'
+global.pdana = '_' //no dana
+global.povo = '-' //no ovo
+global.pgopay = '_' //no gopay
 global.plinkaja = '-' //link aja
-global.ppulsa = '_'
-global.ppulsa2 = '_'
-global.psaweria = '_'
+global.ppulsa = '_' //nomorhp
+global.ppulsa2 = '_' //nomorhp2
+global.psaweria = '_' //link saweria
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ TAMPILAN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
