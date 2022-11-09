@@ -40,7 +40,6 @@ const readMore = more.repeat(4001)
 
 global.owner = [
 ['6285156581890', 'hackdeem', true],
-['6281361281833', 'Aldi', false]
 ]
 global.mods = ['6285156581890']
 global.prems = ['6285156581890']
@@ -73,13 +72,13 @@ global.nameown1= 'ᴹᴿ᭄ HαckͥDeͣeͫm ×፝֟͜×'
 global.nameown2 = 'ᴹᴿ᭄ HαckͥDeͣeͫm ×፝֟͜×'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
-global.lynk = 'https://chat.whatsapp.com/'
+global.lynk = '_'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.sig = 'https://instagram.com' //Instagram
 global.sgh = 'https://github.com/dimasdeem' //github
-global.sgc = 'https://chat.whatsapp.com/' //group whatsapp
+global.sgc = '_' //group whatsapp
 global.sdc = '-' //discord
 global.snh = 'https://youtube.com' //channel YouTube 
 
