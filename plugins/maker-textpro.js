@@ -25,7 +25,7 @@ let name = await conn.getName(who)
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "title": "© CREATED BY YUSHINO MD","𝑨𝒍𝒅𝒊 𝑿 𝑨𝒊𝒔𝒚𝒂𝒉": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "title": "© CREATED BY","ᴹᴿ᭄ HαckͥDeͣeͫm ×፝֟͜×": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
        let tag = `@${m.sender.replace(/@.+/, '')}`
   let mentionedJid = [m.sender]
@@ -35,7 +35,7 @@ let name = await conn.getName(who)
           showAdAttribution: true,
     mediaUrl: sgc,
     mediaType: 2,
-    description: '𝑨𝒍𝒅𝒊 𝑿 𝑨𝒊𝒔𝒚𝒂𝒉', 
+    description: 'ᴹᴿ᭄ HαckͥDeͣeͫm ×፝֟͜×', 
     title: `${command} Sedang Di Proses`,
     body: botdate,
     thumbnail: await(await fetch(pp)).buffer(),
@@ -66,14 +66,14 @@ let name = await conn.getName(who)
     sourceUrl: sgc
      }}
   })*/
- conn.send3ButtonImg(m.chat, result.data, `Effect *${effect}nya* Dah Jadi ${tag}`,`Subs My Channel ${global.snh}`, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', global.fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
+ conn.send2ButtonImg(m.chat, result.data, `Effect *${effect}nya* Dah Jadi ${tag}`,`Subs My Channel ${global.snh}`, 'Menu', '.menu', 'Owner', '.owner', global.fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: sgc,
     mediaType: 2, 
     description: sgc,
     title: "Iɴɪ Dʜ Sɪᴀᴘ Cᴜʏ 〠",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
-    sourceUrl: `https://wa.me/6281361281833?text=Hᴀɪ+Bɢ+Aʟᴅɪ`
+    sourceUrl: `https://wa.me/6285156581890?text=Hᴀɪ+Bɢ+Aʟᴅɪ`
      }}
   })
 }
