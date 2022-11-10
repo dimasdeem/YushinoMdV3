@@ -21,8 +21,8 @@ const fkontak = {
 handler.help = ['hidetag <pesan>']
 handler.tags = ['group']
 handler.command = /^(hidetag)$/i
-
-handler.group = true
+handler.botAdmin = true
+handler.group = false
 handler.admin = true
 
 export default handler
