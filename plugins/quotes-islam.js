@@ -39,11 +39,11 @@ ${pickRandom(global.islam)}
 handler.help = ['q-islam']
 handler.tags = ['quotes']
 handler.command = /^(q-islam)$/i
-handler.owner = false
-handler.mods = false
+handler.owner = true
+handler.mods = true
 handler.premium = false
 handler.group = false
-handler.private = false
+handler.private = true
 
 handler.admin = false
 handler.botAdmin = false
