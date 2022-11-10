@@ -31,8 +31,8 @@ Kurang *${max - user.exp}* lagi! ✨
 *${before}* ➔ *${user.level}* [ *${user.role}* ]`.trim()
         try {
         const img = await levelup(teks, user.level)
-            conn.send3ButtonImg(m.chat, await(await fetch(hh)).buffer(), `Cᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ, Aɴᴅᴀ Tᴇʟᴀʜ Nᴀɪᴋ Lᴇᴠᴇʟ!!\n⚙ Lᴇᴠᴇʟ : ${user.level}\n⚙ Rᴏʟᴇ : ${user.role}`, botdate, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://facebook.com/sadtime098',
+            conn.send2ButtonImg(m.chat, await(await fetch(hh)).buffer(), `Cᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ, Aɴᴅᴀ Tᴇʟᴀʜ Nᴀɪᴋ Lᴇᴠᴇʟ!!\n⚙ Lᴇᴠᴇʟ : ${user.level}\n⚙ Rᴏʟᴇ : ${user.role}`, botdate, 'Menu', '.menu', 'Owner', '.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://www.instagram.com/hck.deem',
     mediaType: 1, 
     description: sgc,
     title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
@@ -42,8 +42,8 @@ Kurang *${max - user.exp}* lagi! ✨
    }}})
         } catch (e) {
        /*     conn.sendButton(m.chat, str, botdate, [['INVENTORY', '.inv']], m)*/
-            conn.send3ButtonImg(m.chat, await(await fetch(hh)).buffer(), `Cᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ, Aɴᴅᴀ Tᴇʟᴀʜ Nᴀɪᴋ Lᴇᴠᴇʟ!!`, botdate, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/_b4c00t4an_s3l3b',
+            conn.send2ButtonImg(m.chat, await(await fetch(hh)).buffer(), `Cᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ, Aɴᴅᴀ Tᴇʟᴀʜ Nᴀɪᴋ Lᴇᴠᴇʟ!!`, botdate, 'Menu', '.menu', 'Owner', '.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://www.instagram.com/hck.deem',
     mediaType: 2, 
     description: sgc,
     title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
