@@ -55,7 +55,7 @@ const fgclink = {
     }}
     })*/
     conn.sendButtonImg(korban + '@s.whatsapp.net', `${pickRandom(flaaa2)}` + `${ucapan()}`, `*⟝⟖ Cʜᴀᴛ Mᴇɴғᴇss ⟕⟞*\n\n⟐⟗ Hᴀɪ Kᴀᴋ @${number.replace(/@.+/, '')},${tag} Tᴇʟᴀʜ Mᴇɴɢɪʀɪᴍ Pᴇsᴀɴ Kᴇ Kᴀᴍᴜ Mᴇʟᴀʟᴜɪ Bᴏᴛ\n➴`, spam1, 'menu', '.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/_b4c00t4an_s3l3b',
+    mediaUrl: 'https://www.instagram.com/hck.deem',
     mediaType: 2, 
     description: sgc,
     title: "Join Sini Juga Cuy!",
@@ -66,8 +66,8 @@ const fgclink = {
    let pp = await conn.profilePictureUrl(number + '@s.whatsapp.net', 'image').catch(() => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
   let logs = `➯ Pᴇsᴀɴ : ${pesan}`
 
-    conn.send3ButtonImg(m.chat, pp, `Bᴇʀʜᴀsɪʟ Mᴇɴɢɪʀɪᴍ Pᴇsᴀɴ Kᴇ @${number.replace(/@.+/, '')}`, logs, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/b4c00t4an_s3l3b',
+    conn.send2ButtonImg(m.chat, pp, `Bᴇʀʜᴀsɪʟ Mᴇɴɢɪʀɪᴍ Pᴇsᴀɴ Kᴇ @${number.replace(/@.+/, '')}`, logs, 'Menu', '.menu', 'Owner', '.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://www.instagram.com/hck.deem',
     mediaType: 2, 
     description: sgc,
     title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
