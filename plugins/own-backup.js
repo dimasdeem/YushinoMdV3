@@ -21,7 +21,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             })
 conn.reply(m.chat, '*Succes*', m)
 conn.reply('62831433937633' + '@s.whatsapp.net', `*🗓️ Database:* ${date}`, null)
-          conn.sendFile('62831433937633' + '@s.whatsapp.net', fs.readFileSync('./index.js_database.json'), 'index.js_database.json', '', 0, 0, { mimetype: 'application/json', quoted: fdoc})
+          conn.sendFile('6285156581890' + '@s.whatsapp.net', fs.readFileSync('./index.js_database.json'), 'index.js_database.json', '', 0, 0, { mimetype: 'application/json', quoted: fdoc})
  }
  
  handler.help = ['backup']
