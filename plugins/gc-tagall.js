@@ -12,6 +12,7 @@ handler.help = ['tagall']
 handler.tags = ['group']
 handler.command = ['tagall']
 handler.admin = true
-handler.group = true
+handler.group = false
+handler.botAdmin = true
 
 export default handler
