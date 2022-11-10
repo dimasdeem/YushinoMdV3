@@ -76,7 +76,7 @@ global.lynk = '_'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = 'https://instagram.com' //Instagram
+global.sig = 'https://www.instagram.com/hck.deem' //Instagram
 global.sgh = 'https://github.com/dimasdeem' //github
 global.sgc = '_' //group whatsapp
 global.sdc = '-' //discord
