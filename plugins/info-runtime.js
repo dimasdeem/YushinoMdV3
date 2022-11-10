@@ -15,7 +15,7 @@ let muptime = clockString(_muptime)
   let mentionedJid = [m.sender]
     let flaa = `${pickRandom(fla)}` + muptime
   let rtt = await(await fetch(flaa)).buffer()
- conn.sendButtonDoc(m.chat, `𝑩𝒐𝒕 𝑼𝒑𝒕𝒊𝒎𝒆`, muptime + '\n\n', 'MENU', '.menu', ftoko, { contextInfo: { forwardingScore: fsizedoc, externalAdReply: { body: 'Tes', containsAutoReply: true, mediaType: 1, mediaUrl: hwaifu.getRandom(),  renderLargerThumbnail: true, showAdAttribution: true, sourceId: 'Tes', sourceType: 'PDF', previewType: 'PDF', sourceUrl: sgc, thumbnail: rtt, thumbnailUrl: sgc, title: 'Mʏ Uᴘ Tɪᴍᴇ'}}})
+ conn.sendButtonDoc(m.chat, `𝑩𝒐𝒕 𝑼𝒑𝒕𝒊𝒎𝒆`, muptime + '\n\n', 'MENU', '.menu', ftoko, { contextInfo: { forwardingScore: fsizedoc, externalAdReply: { body: 'ᴹᴿ᭄ HαckͥDeͣeͫm ×፝֟͜×', containsAutoReply: true, mediaType: 1, mediaUrl: hwaifu.getRandom(),  renderLargerThumbnail: true, showAdAttribution: true, sourceId: 'Tes', sourceType: 'PDF', previewType: 'PDF', sourceUrl: sgc, thumbnail: rtt, thumbnailUrl: sgc, title: 'Mʏ Uᴘ Tɪᴍᴇ'}}})
 }
 handler.help = ['runtime']
 handler.tags = ['info']
