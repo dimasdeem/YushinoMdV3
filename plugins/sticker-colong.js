@@ -9,7 +9,7 @@ try {
     if (/image|video/.test(mime)) {
       let img = await q.download()
       if (!img) throw 'Reply stiker nya!'
-      stiker = await sticker(img, false, '🍀', '🍭 • WH-MODS-BOT-V1 :\nBY WH MODS DEB')
+      stiker = await sticker(img, false, '🍀', '🍭')
     } else if (args[0]) stiker = await sticker(false, args[0], '🍀', '')
   } finally {
     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
