@@ -295,9 +295,9 @@ export async function handler(chatUpdate) {
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
-                    chat.sWelcome = ''
+                    chat.sWelcome = 'true'
                 if (!('sBye' in chat))
-                    chat.sBye = ''
+                    chat.sBye = 'true'
                 if (!('sPromote' in chat))
                     chat.sPromote = ''
                 if (!('sDemote' in chat))
@@ -311,11 +311,11 @@ export async function handler(chatUpdate) {
                 if (!('antiBadword' in chat)) 
                     chat.antiBadword = false
                 if (!('simi' in chat))
-                    chat.simi = false
+                    chat.simi = true
                 if (!('nsfw' in chat))
-                    chat.nsfw = false
+                    chat.nsfw = true
                 if (!('premnsfw' in chat))
-                    chat.premnsfw = false
+                    chat.premnsfw = true
                 if (!isNumber(chat.expired))
                     chat.expired = 0
             } else
@@ -323,18 +323,18 @@ export async function handler(chatUpdate) {
                     isBanned: false,
                     welcome: true,
                     detect: false,
-                    sWelcome: '',
-                    sBye: '',
+                    sWelcome: 'true',
+                    sBye: 'true',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
                     antiLink: true,
                     viewonce: false,
                     antiBadword: true,
-                    simi: false,
+                    simi: true,
                     expired: 0,
-                    nsfw: false,
-                    premnsfw: false,
+                    nsfw: true,
+                    premnsfw: true,
                 }
             let settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
@@ -342,13 +342,13 @@ export async function handler(chatUpdate) {
                 if (!('self' in settings)) settings.self = false
                 if (!('autoread' in settings)) settings.autoread = true
                 if (!('restrict' in settings)) settings.restrict = true
-                if (!('jadibot' in settings)) settings.jadibot = false
+                if (!('jadibot' in settings)) settings.jadibot = true
                 if (!('autorestart' in settings)) settings.autorestart = true
                 if (!('restartDB' in settings)) settings.restartDB = 0
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
                 autoread: true,
-                jadibot: false,
+                jadibot: true,
                 restrict: true,
                 autorestart: true,
                 restartDB: 0
